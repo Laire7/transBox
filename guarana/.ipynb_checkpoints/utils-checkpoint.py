@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-
+ 
 '''
 Read an image from imahe path
 '''
@@ -48,3 +48,10 @@ def plot_images( images_list ):
         axi.axis( 'off' )
         axi.set_title( ("%.1f" % info[2] ) )
         axi.imshow( image )
+
+def main():
+    # python 3에서는 print() 으로 사용합니다.
+    print "Main Function"
+
+if __name__ == "__main__":
+	main()
